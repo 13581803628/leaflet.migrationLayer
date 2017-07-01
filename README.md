@@ -70,7 +70,9 @@ migrationLayer.destroy();
 
 此插件接入数据为JSON格式，具体格式如下：
 
-`[{"from":[<long>,<lat>],"to":[<long>,<lat>],"labels":[<起点文本>,<终点文本>],"color":<颜色值>},{...},...]`
+```JSON
+[{"from":[<long>,<lat>],"to":[<long>,<lat>],"labels":[<起点文本>,<终点文本>],"color":<颜色值>},{...},...]
+```
 
 每一条飞线都有如下参数：
 
